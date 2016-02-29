@@ -1,0 +1,28 @@
+# use glob syntax.
+syntax: glob
+
+target/
+cfg/personal
+cfg/personal/LEEME
+doc/
+access_auditory.log
+localizable_errors.log
+.settings/
+.classpath
+.hgignore
+.project
+
+syntax: regexp
+^cfg/personal$
+syntax: regexp
+^cfg/personal/LEEME$
+syntax: regexp
+^applet$
+syntax: regexp
+^src/main/webapp/applet$
+syntax: regexp
+^src/main/webapp$
+syntax: regexp
+^cfg/personal/LEEME$
+syntax: regexp
+^cfg/personal$
